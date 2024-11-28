@@ -40,3 +40,15 @@ function morningRoutine() {
 
 // Start the routine
 morningRoutine();
+
+/**
+ * Output:
+ * Preparing Breakfast...
+ * Brewing Coffee...
+ * Setting the Table...
+ * Morning routine complete. Enjoy your meal!
+ *
+ * Explanation:
+ * Each function starts only after the previous function finishes,
+ * leading to deeply nested callbacks. This is why it is called "callback hell."
+ */

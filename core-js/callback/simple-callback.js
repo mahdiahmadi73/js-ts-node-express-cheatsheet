@@ -31,3 +31,15 @@ boilWater(() => {
         serveTea();
     });
 });
+
+/**
+ * Output:
+ * Boiling Water...
+ * Making Tea...
+ * Serving Tea! Enjoy!
+ *
+ * Explanation:
+ * 1. boilWater() starts and waits for 1 second before logging "Boiling Water..." and calling makeTea().
+ * 2. makeTea() starts, waits for 1 second, then logs "Making Tea..." and calls serveTea().
+ * 3. serveTea() is executed immediately after makeTea finishes and logs "Serving Tea! Enjoy!".
+ */
