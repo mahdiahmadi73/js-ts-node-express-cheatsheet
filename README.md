@@ -36,7 +36,7 @@ npm install
 ```bash
 node core-js/arrow-functions/example1.js
 ```
-34. **Run Main File: Alternatively, you can run the main.js file to see multiple examples**:
+4. **Run Main File: Alternatively, you can run the main.js file to see multiple examples**:
 
 ```bash
 node main.js
