@@ -15,7 +15,7 @@
  * (e.g., user profiles, API responses) and pass results for further processing.
  */
 function processUser(user, callback){
-    const welcomeMessage= `Welcome, ${user.name}`
+    const welcomeMessage= `Welcome, ${user.firstName}`
     const userInfo={
         fullName :`${user.firstName} ${user.lastName}`,
         email: user.email,

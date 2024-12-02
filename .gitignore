@@ -13,3 +13,4 @@ yarn-error.log*
 # Ignore environment files
 .env
 test.js
+.vscode
